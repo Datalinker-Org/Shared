@@ -25,6 +25,6 @@
  - <b id="#/properties/contactPoint">contactPoint</b>
 	 - **Description:** A contact point for a person or organization. Supersedes contactPoints object.
 	 - **Type:** `array`
-	 - <b id="contactpoint.md">Link to property: ContactPoint.md</b>
+	 - <b id="contactpointcontactpoint.md">Link to property: [ContactPoint](ContactPoint.md)</b>
 
 _Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_
