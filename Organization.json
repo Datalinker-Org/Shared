@@ -39,8 +39,8 @@
 			"dldescription": "The Global Location Number (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations. Equates to NZBN. Refer http://schema.org/globalLocationNumber"
 		},
 		"contactPoint": {
-			"@id": "http://www.datalinker.org/context/ContactPoint",
-			"@type": "http://www.datalinker.org/contexts/2.0/ContactPoint.jsonld",
+			"@id": "ContactPoint.md",
+			"@type": "@id",
 			"type": "array",
 			"items": { "type": "object" },
 			"@container": "@set",
