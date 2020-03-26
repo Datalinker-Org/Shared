@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "telephone": {
+      "@id": "http://schema.org/telephone",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Contact Telephone number"
+    },
+    "email": {
+      "@id": "http://schema.org/email",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Contact Email address"
+    },
+    "address": {
+      "@id": "http://schema.org/address",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Contact Address"
+    },
+    "contactType": {
+      "@id": "http://pending.schema.org/contactType",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Type of Contact - e.g. Sales, Support"
+    }
+  }
+}

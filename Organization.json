@@ -1,0 +1,50 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"LegalName": {
+			"@id": "http://schema.org/legalName",
+			"@type": "xsd:string",
+			"type": "string",
+			"dldescription": "Registered name of the organization"
+		},
+		"url": {
+			"@id": "http://schema.org/url",
+			"@type": "xsd:string",
+			"type": "string",
+			"dldescription": "Official URL of the organization"
+		},
+		"description": {
+			"@id": "http://schema.org/description",
+			"@type": "xsd:string",
+			"type": "string",
+			"dldescription": "Description of the Organization"
+		},
+		"isicv4": {
+			"@id": "http://schema.org/isicv4",
+			"@type": "xsd:string",
+			"type": "string",
+			"dldescription": "International Standard Industrial Classification: 0141 = cattle farming, 0144 = sheep farming, 0150 = mixed farming, 1010 = meat processing, 4610 = livestock auction/trader. Refer http://schema.org/isicV4"
+		},
+		"geo": {
+			"@id": "http://schema.org/geo",
+			"@type": "xsd:decimal",
+			"type": "number",
+			"dldescription": "The geographical coordinates of the place"
+		},
+		"globalLocationNumber": {
+			"@id": "https://schema.org/globalLocationNumber",
+			"@type": "xsd:decimal",
+			"type": "number",
+			"dldescription": "The Global Location Number (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations. Equates to NZBN. Refer http://schema.org/globalLocationNumber"
+		},
+		"contactPoint": {
+			"@id": "http://www.datalinker.org/context/ContactPoint",
+			"@type": "http://www.datalinker.org/contexts/2.0/ContactPoint.jsonld",
+			"type": "array",
+			"items": { "type": "object" },
+			"@container": "@set",
+			"dldescription": "A contact point for a person or organization. Supersedes contactPoints object."
+		}
+	}
+}
