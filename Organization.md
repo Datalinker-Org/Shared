@@ -1,30 +1,30 @@
  - <b id="#/properties/LegalName">LegalName</b>
 	 - **Description:** Registered name of the organization
 	 - **Type:** `string`
-	 - <b id="httpschema.orglegalname">Link to property: http://schema.org/legalName</b>
+	 - <b id="httpschema.orglegalname">Link to schema: http://schema.org/legalName</b>
  - <b id="#/properties/url">url</b>
 	 - **Description:** Official URL of the organization
 	 - **Type:** `string`
-	 - <b id="httpschema.orgurl">Link to property: http://schema.org/url</b>
+	 - <b id="httpschema.orgurl">Link to schema: http://schema.org/url</b>
  - <b id="#/properties/description">description</b>
 	 - **Description:** Description of the Organization
 	 - **Type:** `string`
-	 - <b id="httpschema.orgdescription">Link to property: http://schema.org/description</b>
+	 - <b id="httpschema.orgdescription">Link to schema: http://schema.org/description</b>
  - <b id="#/properties/isicv4">isicv4</b>
 	 - **Description:** International Standard Industrial Classification: 0141 = cattle farming, 0144 = sheep farming, 0150 = mixed farming, 1010 = meat processing, 4610 = livestock auction/trader. Refer http://schema.org/isicV4
 	 - **Type:** `string`
-	 - <b id="httpschema.orgisicv4">Link to property: http://schema.org/isicv4</b>
+	 - <b id="httpschema.orgisicv4">Link to schema: http://schema.org/isicv4</b>
  - <b id="#/properties/geo">geo</b>
 	 - **Description:** The geographical coordinates of the place
 	 - **Type:** `number`
-	 - <b id="httpschema.orggeo">Link to property: http://schema.org/geo</b>
+	 - <b id="httpschema.orggeo">Link to schema: http://schema.org/geo</b>
  - <b id="#/properties/globalLocationNumber">globalLocationNumber</b>
 	 - **Description:** The Global Location Number (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations. Equates to NZBN. Refer http://schema.org/globalLocationNumber
 	 - **Type:** `number`
-	 - <b id="httpsschema.orggloballocationnumber">Link to property: https://schema.org/globalLocationNumber</b>
+	 - <b id="httpsschema.orggloballocationnumber">Link to schema: https://schema.org/globalLocationNumber</b>
  - <b id="#/properties/contactPoint">contactPoint</b>
 	 - **Description:** A contact point for a person or organization. Supersedes contactPoints object.
 	 - **Type:** `array`
-	 - <b id="contactpointcontactpoint.md">Link to property: [ContactPoint](ContactPoint.md)</b>
+	 - <b id="contactpointcontactpoint.md">Link to schema: [ContactPoint](ContactPoint.md)</b>
 
 _Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_
